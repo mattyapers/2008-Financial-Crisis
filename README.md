@@ -6,7 +6,7 @@ This repository is a portfolio of projects I have completed for self learning, f
 # Project 2: Banks during the 2008 Financial Crisis
 
 1. [Introduction](#introduction)
-2. [Background](#background)
+2. [Data Collection](#Data Collection)
 3. [Methodology](#methodology)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
@@ -15,7 +15,7 @@ This repository is a portfolio of projects I have completed for self learning, f
 ## Introduction
 As part of my data analysis portfolio, I collected historical data on bank stocks during the 2008 financial crisis using the Alpha Vantage API. The crisis had a profound impact on the banking sector, with many major financial institutions facing bankruptcy or insolvency. The collapse of Lehman Brothers in September 2008 triggered a wave of panic across global financial markets, leading to a sharp decline in stock prices and widespread economic disruption.
 
-## Background
+## Data Collection
 This is the introduction.
 
 ## Methodology
