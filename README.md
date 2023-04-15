@@ -13,9 +13,17 @@ This repository is a portfolio of projects I have completed for self learning, f
 
 
 ## Introduction {#introduction}
-## Background {#background}
-## Methodology {#methodology}
-## Results {#results}
-## Conclusion {#conclusion}
+This is the introduction.
 
+## Background {#background}
+This is the introduction.
+
+## Methodology {#methodology}
+This is the introduction.
+
+## Results {#results}
+This is the introduction.
+
+## Conclusion {#conclusion}
+This is the introduction.
 
