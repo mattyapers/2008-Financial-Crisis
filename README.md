@@ -12,7 +12,7 @@ This repository is a portfolio of projects I have completed for self learning, f
 5. [Conclusion](#conclusion)
 
 
-## Introduction #introduction
+## Introduction {#introduction}
 ## Background {#background}
 ## Methodology {#methodology}
 ## Results {#results}
