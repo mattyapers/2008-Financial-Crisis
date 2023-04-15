@@ -13,7 +13,7 @@ This repository is a portfolio of projects I have completed for self learning, f
 
 
 ## Introduction
-This is the introduction.
+As part of my data analysis portfolio, I collected historical data on bank stocks during the 2008 financial crisis using the Alpha Vantage API. The crisis had a profound impact on the banking sector, with many major financial institutions facing bankruptcy or insolvency. The collapse of Lehman Brothers in September 2008 triggered a wave of panic across global financial markets, leading to a sharp decline in stock prices and widespread economic disruption.
 
 ## Background
 This is the introduction.
