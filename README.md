@@ -7,7 +7,7 @@ This repository is a portfolio of projects I have completed for self learning, f
 
 1. [Introduction](#introduction)
 2. [Data Collection](#data-collection)
-3. [Methodology](#methodology)
+3. [EDA](#eda)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
 
@@ -18,7 +18,7 @@ As part of my data analysis portfolio, I collected historical data on bank stock
 ## Data Collection
 This is the introduction.
 
-## Methodology
+## EDA
 This is the introduction.
 
 ## Results
