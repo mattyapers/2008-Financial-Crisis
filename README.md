@@ -15,15 +15,15 @@ This repository is a portfolio of projects I have completed for self learning, f
 ## Introduction
 This is the introduction.
 
-## Background {#background}
+## Background
 This is the introduction.
 
-## Methodology {#methodology}
+## Methodology
 This is the introduction.
 
-## Results {#results}
+## Results
 This is the introduction.
 
-## Conclusion {#conclusion}
+## Conclusion
 This is the introduction.
 
