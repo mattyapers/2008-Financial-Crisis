@@ -121,6 +121,47 @@ bank_stocks.head()
 
 
 ## EDA
+**Close price of banks**
+```python
+bank_stocks.xs(key='Close', axis=1, level='Stock Info')
+```
+**Highest Close price for each bank's stock from 2006 to 2016**
+```python
+bank_stocks.xs(key='Close', axis=1, level='Stock Info').max()
+```
+
+**Lowest Close price for each bank's stock from 2006 to 2016**
+```python
+bank_stocks.xs(key='Close', axis=1, level='Stock Info').min()
+```
+**New dataframe of bank returns**
+```python
+returns = pd.DataFrame()
+```
+**Creating a percentage change column in `returns`**
+```python
+for tick in tickers:
+    returns[tick+' Return'] = df[tick]['Close'].pct_change()
+returns.head()
+```
+This portion was a bit tougher for me and I had to breakdown the logic step by step before being able to move on.
+1. `for tick in tickers:`: This sets up a loop that will iterate through each bank's stock ticker in the list tickers.
+
+2. `returns[tick+' Return']`: This creates a new column in the returns DataFrame with a column name that includes the bank's ticker symbol and the word "Return". For example, for Bank of America, the new column name will be "BAC Return".
+
+3. `bank_stocks[tick]['close'].pct_change()`: This calculates the percentage change in daily closing price for the bank's stock, using the `.pct_change()` method of the close column of the bank's stock data in the `bank_stocks` DataFrame.
+
+4. The result of this calculation is then assigned to the new column in the returns DataFrame for the corresponding bank.
+
+### Visualisation
+```python
+import seaborn as sns
+```
+**Pairplot of returns dataframe**
+```python
+sns.pairplot(returns)
+```
+![Pairplot of returns](https://imgur.com/7kXmUwl)
 
 ## Results
 This is the introduction.
