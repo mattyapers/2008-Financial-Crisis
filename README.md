@@ -8,8 +8,9 @@ This repository is a portfolio of projects I have completed for self learning, f
 1. [Introduction](#introduction)
 2. [Data Collection](#data-collection)
 3. [EDA](#eda)
-4. [Results](#results)
-5. [Conclusion](#conclusion)
+1. [Visualisation](#visualisation)
+5. [Results](#results)
+6. [Conclusion](#conclusion)
 
 
 ## Introduction
