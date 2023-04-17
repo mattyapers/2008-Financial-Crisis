@@ -16,7 +16,16 @@ This repository is a portfolio of projects I have completed for self learning, f
 As part of my data analysis portfolio, I collected historical data on bank stocks during the 2008 financial crisis using the Alpha Vantage API. The crisis had a profound impact on the banking sector, with many major financial institutions facing bankruptcy or insolvency. The collapse of Lehman Brothers in September 2008 triggered a wave of panic across global financial markets, leading to a sharp decline in stock prices and widespread economic disruption.
 
 ## Data Collection
-This is the introduction.
+
+```python
+import pandas_datareader.data as web
+import pandas as pd
+import numpy as np
+import datetime as dt
+import os
+%matplotlib inline
+```
+
 
 ## EDA
 This is the introduction.
