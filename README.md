@@ -161,7 +161,7 @@ import seaborn as sns
 ```python
 sns.pairplot(returns)
 ```
-![Pairplot of returns](https://imgur.com/7kXmUwl)
+![Pairplot of returns](https://i.imgur.com/7kXmUwl.png)
 
 ## Results
 This is the introduction.
