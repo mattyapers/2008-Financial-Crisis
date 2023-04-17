@@ -25,6 +25,7 @@ import datetime as dt
 import os
 %matplotlib inline
 ```
+To retrieve historical data, I will be using 'pandas_datareader'. With this library, I can easily extract financial data from various sources, including Yahoo Finance, Google Finance, and the Federal Reserve Bank of St. Louis.
 
 
 ## EDA
