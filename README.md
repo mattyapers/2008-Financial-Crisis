@@ -313,6 +313,7 @@ plt.show()
 **WFC Return**  
 ![WFC](https://i.imgur.com/vfnwMUP.png) 
 
+The distribution plots above show that the mean of returns for all banks is relatively low, around 0.01, as indicated by the dotted red line. However, the standard deviations vary among the banks. **MS** has the highest standard deviation of 0.088, while **GS** has a standard deviation of 0.050, suggesting that **MS** returns may be more volatile than those of **GS**. The distribution plot suggests that the return distribution of **MS** is more skewed to the right, whereas the distribution of **GS** is more centralized.
 
 ## Discussion
 This is the discussion.
