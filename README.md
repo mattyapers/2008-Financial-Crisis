@@ -5,7 +5,8 @@
 3. [EDA](#eda)  
 3.1. [Returns](#returns)  
 3.1.1 [Single Day Return](#single-day-return)  
-3.1.2 [SD of Returns](#standard-deviation-of-returns)
+3.1.2 [SD of Returns](#standard-deviation-of-returns)  
+3.1.3 [Distribution of Returns](#distribution
 4. [Results](#results)
 5. [Conclusion](#conclusion)
 
