@@ -269,7 +269,7 @@ WFC Return    0.012591
 dtype: float64
 ```
 #### Distribution
-I will be taking a look at the distribution of the returns of the banks.
+I will be analyzing the distribution of returns for various banks, including the **BAC Return**. I have replicated the code for each bank to visualize their return distributions.
 ```python
 import matplotlib.pyplot as plt
 ```
@@ -279,56 +279,44 @@ import matplotlib.pyplot as plt
 **BAC Return**
 ```python
 sns.displot(returns.loc['2008-01-01': '2008-12-31']['BAC Return'], kde=True)
+
 plt.title('BAC Return 2008')
+plt.xlabel('Daily Returns')
+plt.ylabel('Frequency')
+
+mean = returns.loc['2008-01-01': '2008-12-31']['BAC Return'].mean()
+std = returns.loc['2008-01-01': '2008-12-31']['BAC Return'].std()
+plt.axvline(x=mean, color='r', linestyle='--', label=f'Mean = {mean:.3f}')
+plt.axvline(x=mean+std, color='g', linestyle='--',
+            label=f'Std Dev = {std:.3f}')
+plt.axvline(x=mean-std, color='g', linestyle='--')
+
+plt.legend()
+plt.tight_layout()
 plt.show()
+
 ```
-![BAC Return 2008](https://i.imgur.com/Kma1BM6.png)  
+![BAC](https://i.imgur.com/QAfjSRB.png)
 
 **C Return**
-```python
-sns.displot(returns.loc['2008-01-01': '2008-12-31']['C Return'], kde=True)
-plt.title('C Return 2008')
-plt.show()
-```
-![C Return 2008](https://i.imgur.com/SGPXV6y.png)  
+![C](https://i.imgur.com/BJCZIkE.png) 
 
 **GS Return**
-```python
-sns.displot(returns.loc['2008-01-01': '2008-12-31']['GS Return'], kde=True)
-plt.title('GS Return 2008')
-plt.show()
-```
-![GS Return 2008](https://i.imgur.com/Hd87qAY.png)  
-
+![GS](https://i.imgur.com/IY26Lgj.png)  
 
 **JPM Return**
-```python
-sns.displot(returns.loc['2008-01-01': '2008-12-31']['JPM Return'], kde=True)
-plt.title('JPM Return 2008')
-plt.show()
-```
-![JPM Return 2008](https://i.imgur.com/myeAH2W.png)  
+![JPM](https://i.imgur.com/zBRXTRQ.png)  
 
 **MS Return**
-```python
-sns.displot(returns.loc['2008-01-01': '2008-12-31']['MS Return'], kde = True)
-plt.title('MS Return 2008')
-plt.show()
-```
-![MS Return 2008](https://i.imgur.com/FnJ7VF3.png)  
+![MS](https://i.imgur.com/y9klYnO.png)  
 
 **WFC Return**
-```python
-sns.displot(returns.loc['2008-01-01': '2008-12-31']['WFC Return'], kde=True)
-plt.title('WFC Return 2008')
-plt.show()
-```
-![WFC Return 2008](https://i.imgur.com/tUYcxJo.png)  
+![WFC](https://i.imgur.com/vfnwMUP.png) 
 
 
 ## Discussion
 This is the discussion.
 
 ## Conclusion
-This is the introduction.
+This is the conclusion.
 
