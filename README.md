@@ -175,6 +175,7 @@ For instance, **Citigroup** heavy investment in subprime mortgages or other high
 **Worst single day return**
 ```python
 returns.idxmin()
+print(returns.idxmin())
 ```
 
 **Best single day return**
