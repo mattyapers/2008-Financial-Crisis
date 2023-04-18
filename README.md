@@ -1,6 +1,7 @@
 # Data-Analysis
 This repository is a portfolio of projects I have completed for self learning, fun and understanding data better :)
-
+1. []
+2. [Project 2](#project-2-banks-during-the-2008-financial-crisis)
 # Project 1: 911 Calls
 
 # Project 2: Banks during the 2008 Financial Crisis
@@ -8,7 +9,8 @@ This repository is a portfolio of projects I have completed for self learning, f
 1. [Introduction](#introduction)
 2. [Data Collection](#data-collection)
 3. [EDA](#eda)  
-3.1. [Returns](#Returns)
+3.1. [Returns](#returns)  
+3.1.1 [Single Day Return](#single-day-return)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
 
