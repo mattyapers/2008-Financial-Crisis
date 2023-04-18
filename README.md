@@ -213,7 +213,9 @@ One potential explanation could be related to market sentiment or investor perce
 However, once the new administration was officially in place and began to unveil its policies, investors may have become more optimistic about the outlook for the financial sector. This could have contributed to JPM's strong performance on the following day.
 
 **Citigroup**
+The dates of Citigroup's worst and best days are in close proximity to each other. Upon conducting further research, it was found that a stock split occurred on 2011-05-09, with a 1:10 split ratio.
 
+A stock split has the potential to improve Citigroup's single day return. When a company undergoes a stock split, it increases the number of outstanding shares while decreasing the price of each individual share. This can make the stock more accessible to a broader range of investors, which could increase demand and drive up the price.
 
 
 ## Results
