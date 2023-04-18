@@ -267,6 +267,62 @@ MS Return     0.016249
 WFC Return    0.012591
 dtype: float64
 ```
+#### Distribution
+I will be taking a look at the distribution of the returns of the banks.
+```python
+import matplotlib.pyplot as plt
+```
+
+##### 2008
+
+**BAC Return**
+```python
+sns.displot(returns.loc['2008-01-01': '2008-12-31']['BAC Return'], kde=True)
+plt.title('BAC Return 2008')
+plt.show()
+```
+![BAC Return 2008](https://i.imgur.com/Kma1BM6.png)
+
+**C Return**
+```python
+sns.displot(returns.loc['2008-01-01': '2008-12-31']['C Return'], kde=True)
+plt.title('C Return 2008')
+plt.show()
+```
+![C Return 2008](https://i.imgur.com/SGPXV6y.png)
+
+**GS Return**
+```python
+sns.displot(returns.loc['2008-01-01': '2008-12-31']['GS Return'], kde=True)
+plt.title('GS Return 2008')
+plt.show()
+```
+![GS Return 2008](https://i.imgur.com/Hd87qAY.png)
+
+**JPM Return**
+```python
+sns.displot(returns.loc['2008-01-01': '2008-12-31']['JPM Return'], kde=True)
+plt.title('JPM Return 2008')
+plt.show()
+```
+![JPM Return 2008](https://i.imgur.com/myeAH2W.png)
+**MS Return**
+```python
+sns.displot(returns.loc['2008-01-01': '2008-12-31']['MS Return'], kde = True)
+plt.title('MS Return 2008')
+plt.show()
+```
+![MS Return 2008](https://i.imgur.com/FnJ7VF3.png)
+
+**WFC Return**
+```python
+sns.displot(returns.loc['2008-01-01': '2008-12-31']['WFC Return'], kde=True)
+plt.title('WFC Return 2008')
+plt.show()
+```
+![WFC Return 2008](https://i.imgur.com/tUYcxJo.png)
+
+
 ## Results
 This is the introduction.
 
