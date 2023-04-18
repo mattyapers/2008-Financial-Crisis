@@ -18,12 +18,12 @@ As part of my data analysis portfolio, I collected historical data on bank stock
 
 For this project, I will be focusing on these banks and their performance before and after the financial crisis:
 
-* Bank of America
-* CitiGroup
-* Goldman Sachs
-* JPMorgan Chase
-* Morgan Stanley
-* Wells Fargo
+* Bank of America (BAC)
+* CitiGroup (C)
+* Goldman Sachs (GS)
+* JPMorgan Chase (JPM)
+* Morgan Stanley (MS)
+* Wells Fargo (WFC)
 
 I used a combination of yahoo finance and Alpha Vantage APIs to retrieve historical data.
 ## Data Collection
@@ -187,6 +187,9 @@ MS Return    2008-10-09
 WFC Return   2009-01-20
 dtype: datetime64[ns]
 ```
+It appears that the worst days for Bank of America (BAC), Goldman Sachs (GS), JPMorgan Chase (JPM), and Wells Fargo (WFC) all fell on the same day. After some investigation, it was discovered that this day was January 20, 2009, which was the day of President Barack Obama's inauguration.
+
+This could potentially be attributed to the uncertainty surrounding the transfer of power from one administration to another, as well as the ongoing financial crisis at the time. It's possible that investors were particularly cautious on this day and reacted negatively to any news or events that could further impact the financial sector.
 
 **Best single day return**
 ```python
@@ -201,6 +204,18 @@ MS Return    2008-10-13
 WFC Return   2008-07-16
 dtype: datetime64[ns]
 ```
+
+**JPM**
+It's difficult to say with certainty what caused JPM's best day to be so close to their worst day with respect to the inauguration day, as there could be a number of factors at play.
+
+One potential explanation could be related to market sentiment or investor perception. In the lead-up to the inauguration, there may have been a great deal of uncertainty or concern among investors about how the new administration would impact the financial sector. This could have led to a sharp sell-off in bank stocks on the day of the inauguration.
+
+However, once the new administration was officially in place and began to unveil its policies, investors may have become more optimistic about the outlook for the financial sector. This could have contributed to JPM's strong performance on the following day.
+
+**Citigroup**
+
+
+
 ## Results
 This is the introduction.
 
