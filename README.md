@@ -164,14 +164,23 @@ sns.pairplot(returns)
 ```
 ![Pairplot of returns](https://i.imgur.com/7kXmUwl.png)
 
-The pairplot graph shows that Citigroup consistently underperforms compared to the other banks. This suggests that there may be specific factors unique to Citigroup negatively affecting its performance. Further investigation is needed to identify these factors and potential solutions.
+The pairplot graph shows that **Citigroup consistently underperforms** compared to the other banks. This suggests that there may be specific factors unique to **Citigroup** negatively affecting its performance. Further investigation is needed to identify these factors and potential solutions.
 
 *It is also important to consider potential interactions between the variables being compared, as the pairplot graph only shows pairwise relationships.*
 
-The **government bailout in 2008** was a response to the financial crisis caused by factors such as subprime mortgage lending, securitization, and regulatory failures. It's possible that some of these same factors could be contributing to Citigroup's underperformance today.
+The **government bailout in 2008** was a response to the financial crisis caused by factors such as subprime mortgage lending, securitization, and regulatory failures. It's possible that some of these same factors could be contributing to **Citigroup** underperformance today.
 
-For instance, Citigroup's heavy investment in subprime mortgages or other high-risk assets prior to the financial crisis could have impacted its performance and contributed to the need for a bailout. Similarly, slow adaptation to changes in the regulatory landscape or ineffective risk management practices may limit its ability to compete with other banks and achieve strong returns.
+For instance, **Citigroup** heavy investment in subprime mortgages or other high-risk assets prior to the financial crisis could have impacted its performance and contributed to the need for a bailout. Similarly, slow adaptation to changes in the regulatory landscape or ineffective risk management practices may limit its ability to compete with other banks and achieve strong returns.
 
+**Worst single day return**
+```python
+returns.idxmin()
+```
+
+**Best single day return**
+```python
+returns.idxmax()
+```
 ## Results
 This is the introduction.
 
