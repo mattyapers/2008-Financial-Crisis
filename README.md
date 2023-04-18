@@ -8,11 +8,9 @@ This repository is a portfolio of projects I have completed for self learning, f
 1. [Introduction](#introduction)
 2. [Data Collection](#data-collection)
 3. [EDA](#eda)  
-3.1. [Returns](#Returns)  
- 3.1.1 [Single_Day] (#single-day-return) 
- 3.1.2. [SD] (#Standard-Deviation of-Returns)
-5. [Results](#results)
-6. [Conclusion](#conclusion)
+3.1. [Returns](#Returns)
+4. [Results](#results)
+5. [Conclusion](#conclusion)
 
 
 ## Introduction
