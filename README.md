@@ -175,7 +175,13 @@ For instance, **Citigroup** heavy investment in subprime mortgages or other high
 **Worst single day return**
 ```python
 returns.idxmin()
-print(returns.idxmin())
+BAC Return   2009-01-20
+C Return     2011-05-06
+GS Return    2009-01-20
+JPM Return   2009-01-20
+MS Return    2008-10-09
+WFC Return   2009-01-20
+dtype: datetime64[ns]
 ```
 
 **Best single day return**
