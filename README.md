@@ -1,10 +1,4 @@
-# Data-Analysis
-This repository is a portfolio of projects I have completed for self learning, fun and understanding data better :)
-1. []
-2. [Project 2](#project-2-banks-during-the-2008-financial-crisis)
-# Project 1: 911 Calls
-
-# Project 2: Banks during the 2008 Financial Crisis
+# Project 1: Banks during the 2008 Financial Crisis
 
 1. [Introduction](#introduction)
 2. [Data Collection](#data-collection)
