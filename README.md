@@ -235,7 +235,7 @@ dtype: float64
 
 Over the 10-year period, Citigroup had the highest daily standard deviation of its returns compared to the other banks in the dataset. 
 
-**1 Year Period (2008)**
+**1 Year Period (2008)**  
 **Choosing the specific columns**
 ```python
 returns.loc['2008-01-01' : '2008-12-31']
