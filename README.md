@@ -205,14 +205,14 @@ WFC Return   2008-07-16
 dtype: datetime64[ns]
 ```
 
-**JPM**
+**JPM**  
 It's difficult to say with certainty what caused JPM's best day to be so close to their worst day with respect to the inauguration day, as there could be a number of factors at play.
 
 One potential explanation could be related to market sentiment or investor perception. In the lead-up to the inauguration, there may have been a great deal of uncertainty or concern among investors about how the new administration would impact the financial sector. This could have led to a sharp sell-off in bank stocks on the day of the inauguration.
 
 However, once the new administration was officially in place and began to unveil its policies, investors may have become more optimistic about the outlook for the financial sector. This could have contributed to JPM's strong performance on the following day.
 
-**Citigroup**
+**Citigroup**  
 The dates of Citigroup's worst and best days are in close proximity to each other. Upon conducting further research, it was found that a stock split occurred on 2011-05-09, with a 1:10 split ratio.
 
 A stock split has the potential to improve Citigroup's single day return. When a company undergoes a stock split, it increases the number of outstanding shares while decreasing the price of each individual share. This can make the stock more accessible to a broader range of investors, which could increase demand and drive up the price.
