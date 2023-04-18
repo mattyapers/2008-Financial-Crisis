@@ -298,19 +298,19 @@ plt.show()
 ```
 ![BAC](https://i.imgur.com/QAfjSRB.png)
 
-**C Return**
-![C](https://i.imgur.com/BJCZIkE.png) 
+**C Return**  
+![C](https://i.imgur.com/BJCZIkE.png)
 
-**GS Return**
+**GS Return**  
 ![GS](https://i.imgur.com/IY26Lgj.png)  
 
-**JPM Return**
+**JPM Return**  
 ![JPM](https://i.imgur.com/zBRXTRQ.png)  
 
-**MS Return**
+**MS Return**  
 ![MS](https://i.imgur.com/y9klYnO.png)  
 
-**WFC Return**
+**WFC Return**  
 ![WFC](https://i.imgur.com/vfnwMUP.png) 
 
 
