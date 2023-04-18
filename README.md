@@ -9,7 +9,7 @@ This repository is a portfolio of projects I have completed for self learning, f
 1. [Introduction](#introduction)
 2. [Data Collection](#data-collection)
 3. [EDA](#eda)  
-3.1. [Returns](#returns)    
+3.1. [Returns](#returns)  
 3.1.1 [Single Day Return](#single-day-return)
 4. [Results](#results)
 5. [Conclusion](#conclusion)
