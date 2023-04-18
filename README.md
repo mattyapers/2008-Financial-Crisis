@@ -7,7 +7,7 @@
 3.1.1 [Single Day Return](#single-day-return)  
 3.1.2 [SD of Returns](#standard-deviation-of-returns)  
 3.1.3 [Distribution of Returns](#distribution)
-4. [Results](#results)
+4. [Discussion](#discussion)
 5. [Conclusion](#conclusion)
 
 
@@ -326,8 +326,8 @@ plt.show()
 ![WFC Return 2008](https://i.imgur.com/tUYcxJo.png)  
 
 
-## Results
-This is the introduction.
+## Discussion
+This is the discussion.
 
 ## Conclusion
 This is the introduction.
