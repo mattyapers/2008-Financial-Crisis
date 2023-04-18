@@ -8,7 +8,7 @@ This repository is a portfolio of projects I have completed for self learning, f
 1. [Introduction](#introduction)
 2. [Data Collection](#data-collection)
 3. [EDA](#eda)  
-3.1. [Visualisation](#visualisation)
+3.1. [Returns](#Returns)
 5. [Results](#results)
 6. [Conclusion](#conclusion)
 
@@ -154,7 +154,7 @@ This portion was a bit tougher for me and I had to breakdown the logic step by s
 
 4. The result of this calculation is then assigned to the new column in the returns DataFrame for the corresponding bank.
 
-### Visualisation
+### Returns
 ```python
 import seaborn as sns
 ```
@@ -172,9 +172,13 @@ The **government bailout in 2008** was a response to the financial crisis caused
 
 For instance, **Citigroup** heavy investment in subprime mortgages or other high-risk assets prior to the financial crisis could have impacted its performance and contributed to the need for a bailout. Similarly, slow adaptation to changes in the regulatory landscape or ineffective risk management practices may limit its ability to compete with other banks and achieve strong returns.
 
+### Single Day Return
+
 **Worst single day return**
 ```python
 returns.idxmin()
+```
+```python
 BAC Return   2009-01-20
 C Return     2011-05-06
 GS Return    2009-01-20
@@ -187,6 +191,15 @@ dtype: datetime64[ns]
 **Best single day return**
 ```python
 returns.idxmax()
+```
+```python
+BAC Return   2009-04-09
+C Return     2011-05-09
+GS Return    2008-11-24
+JPM Return   2009-01-21
+MS Return    2008-10-13
+WFC Return   2008-07-16
+dtype: datetime64[ns]
 ```
 ## Results
 This is the introduction.
