@@ -172,7 +172,7 @@ The **government bailout in 2008** was a response to the financial crisis caused
 
 For instance, **Citigroup** heavy investment in subprime mortgages or other high-risk assets prior to the financial crisis could have impacted its performance and contributed to the need for a bailout. Similarly, slow adaptation to changes in the regulatory landscape or ineffective risk management practices may limit its ability to compete with other banks and achieve strong returns.
 
-### Single Day Return
+#### Single Day Return
 
 **Worst single day return**
 ```python
@@ -217,7 +217,59 @@ The dates of Citigroup's worst and best days are in close proximity to each othe
 
 A stock split has the potential to improve Citigroup's single day return. When a company undergoes a stock split, it increases the number of outstanding shares while decreasing the price of each individual share. This can make the stock more accessible to a broader range of investors, which could increase demand and drive up the price.
 
+#### Standard Deviation of Returns
+**10 Year Period (2006 - 2016)**
+```python
+returns.std()
+```
 
+```python
+BAC Return    0.036650
+C Return      0.179969
+GS Return     0.025346
+JPM Return    0.027656
+MS Return     0.037820
+WFC Return    0.030233
+dtype: float64
+```
+
+Over the 10-year period, Citigroup had the highest daily standard deviation of its returns compared to the other banks in the dataset. 
+
+**1 Year Period (2008)**
+**Choosing the specific columns**
+```python
+returns.loc['2008-01-01' : '2008-12-31']
+```
+
+```python
+
+            BAC Return	C Return	GS Return	JPM Return	MS Return	WFC Return
+Date						
+2008-01-02	-0.016966	-0.017663	-0.034643	-0.033906	-0.040670	-0.036105
+2008-01-03	-0.006410	0.000346	-0.013295	-0.006877	-0.000196	-0.019931
+2008-01-04	-0.011166	-0.023851	-0.023970	-0.022684	-0.032195	-0.036115
+2008-01-07	0.001255	0.000708	-0.026009	0.010017	-0.020081	0.006912
+2008-01-08	-0.037343	-0.039632	-0.026858	-0.039671	-0.039536	-0.042630
+...	...	...	...	...	...	...
+2008-12-24	0.061176	0.039877	0.016489	0.025421	0.004155	0.018155
+2008-12-26	-0.012565	-0.007375	-0.006149	-0.001675	0.010345	0.001092
+2008-12-29	-0.031437	-0.023774	0.007766	-0.000671	0.017065	0.011632
+2008-12-30	0.023184	0.035008	0.071839	0.041303	0.019463	0.034854
+2008-12-31	0.063444	-0.013235	0.028394	0.016769	0.055958	0.023611
+```
+**SD of 2008**
+```python
+returns.loc['2008-01-01': '2008-12-31'].std()
+```
+```python
+BAC Return    0.016163
+C Return      0.015289
+GS Return     0.014046
+JPM Return    0.014017
+MS Return     0.016249
+WFC Return    0.012591
+dtype: float64
+```
 ## Results
 This is the introduction.
 
