@@ -184,7 +184,7 @@ returns_2008 = returns.loc['2008-01-01':'2008-12-31']
 corr_2008 = returns_2008.corr()
 ```
 ```python
-sns.heatmap(data = corr, cmap = 'rocket')
+sns.heatmap(data = corr_2008, cmap = 'rocket')
 ```
 ![Heatmap 2008](https://i.imgur.com/RFTGmgL.png)
 
