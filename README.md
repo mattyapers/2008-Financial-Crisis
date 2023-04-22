@@ -9,6 +9,7 @@
 3.1.3 [Distribution of Returns](#distribution)  
 4. [Discussion](#discussion)
 5. [Conclusion](#conclusion)
+6. [To do](#to_do)
 
 
 ## Introduction
@@ -322,3 +323,5 @@ This is the discussion.
 ## Conclusion
 This is the conclusion.
 
+## To do
+1. use a heat map to corroborate the correlation matrix (pairplot)
