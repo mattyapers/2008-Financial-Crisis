@@ -169,7 +169,25 @@ The pairplot graph shows that **Citigroup consistently underperforms** compared 
 
 The **government bailout in 2008** was a response to the financial crisis caused by factors such as subprime mortgage lending, securitization, and regulatory failures. It's possible that some of these same factors could be contributing to **Citigroup** underperformance today.
 
-For instance, **Citigroup** heavy investment in subprime mortgages or other high-risk assets prior to the financial crisis could have impacted its performance and contributed to the need for a bailout. Similarly, slow adaptation to changes in the regulatory landscape or ineffective risk management practices may limit its ability to compete with other banks and achieve strong returns.
+For instance, **Citigroup** heavy investment in subprime mortgages or other high-risk assets prior to the financial crisis could have impacted its performance and contributed to the need for a bailout. Similarly, slow adaptation to changes in the regulatory landscape or ineffective risk management practices may limit its ability to compete with other banks and achieve strong returns.  
+**Using a Heatmap**
+```python
+corr = returns.corr()
+```
+```python
+sns.heatmap(data = corr, cmap = 'rocket')
+```  
+![Heatmap](https://i.imgur.com/mCcVins.png)  
+
+**2008 Heatmap**
+```python
+returns_2008 = returns.loc['2008-01-01':'2008-12-31']
+corr_2008 = returns_2008.corr()
+```
+```python
+sns.heatmap(data = corr_2008, cmap = 'rocket')
+```
+![Heatmap 2008](https://i.imgur.com/RFTGmgL.png)
 
 #### Single Day Return
 
