@@ -334,6 +334,27 @@ plt.show()
 
 The distribution plots above show that the mean of returns for all banks is relatively low, around 0.01, as indicated by the dotted red line. However, the standard deviations vary among the banks. **MS** has the highest standard deviation of 0.088, while **GS** has a standard deviation of 0.050, suggesting that **MS** returns may be more volatile than those of **GS**. The distribution plot suggests that the return distribution of **MS** is more skewed to the right, whereas the distribution of **GS** is more centralized.
 
+### Time Series
+
+**Importing the libraries and initialising**
+```python
+import plotly.graph_objs as go
+import plotly.offline as pyo
+pyo.init_notebook_mode(connected=True)
+fig = go.Figure()
+```
+#### Stock Prices in 2008
+```python
+for tick in tickers:
+    fig.add_trace(go.Scatter(x=bank_stocks.loc['2008-01-01':'2008-12-31'].index,
+                  y=bank_stocks[tick]['Close'].loc['2008-01-01':'2008-12-31'], mode='lines', name=tick))
+
+fig.update_layout(title='Stock Prices during 2008 Financial Crisis',
+                  xaxis_title='Date', yaxis_title='Closing Price')
+fig.show()
+```
+![Stock Price 2008](https://i.imgur.com/swNcRDz.png)
+
 ## Discussion
 This is the discussion.
 
