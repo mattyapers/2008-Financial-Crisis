@@ -355,6 +355,38 @@ fig.show()
 ```
 ![Stock Price 2008](https://i.imgur.com/swNcRDz.png)
 
+
+#### 30 Day Moving Average
+I created a loop to plot the 30 day average against the closing price of each bank in 2008.
+```python
+# Iterate over the tickers and create a figure for each one
+for tick in tickers:
+    # Create a new empty figure for each ticker
+    fig = go.Figure()
+
+    # Add a trace for the ticker's closing prices
+    fig.add_trace(go.Scatter(x=bank_stocks.loc['2008-01-01':'2008-12-31'].index,
+                             y=bank_stocks[tick]['Close'].loc['2008-01-01':'2008-12-31'],
+                             mode='lines',
+                             name=tick))
+
+    # Add a trace for the ticker's rolling 30-day average
+    fig.add_trace(go.Scatter(x=bank_stocks.loc['2008-01-01':'2008-12-31'].index,
+                             y=bank_stocks[tick]['Close'].loc['2008-01-01':'2008-12-31'].rolling(
+        30).mean(),
+        mode='lines',
+        name=f'{tick} 30-day MA'))
+
+    # Set the plot title and axis labels
+    fig.update_layout(title=f'{tick} Stock Prices during 2008 Financial Crisis',
+                      xaxis_title='Date',
+                      yaxis_title='Closing Price')
+
+    # Show the plot
+    fig.show()
+
+```
+
 ## Discussion
 This is the discussion.
 
