@@ -10,9 +10,7 @@
 3.2. [Time Series](#time-series)  
 3.2.1 [Stock Prices 2008](#Stock-Prices-in-2008)  
 3.2.2 [30 Day MA](#30-Day-Moving-Average)  
-4. [Discussion](#discussion)
-5. [Conclusion](#conclusion)
-6. [To do](#to_do)
+4. [Conclusion](#conclusion)
 
 
 ## Introduction
@@ -382,7 +380,7 @@ for tick in tickers:
 
     # Set the plot title and axis labels
     fig.update_layout(title=f'{tick} Stock Prices during 2008 Financial Crisis',
-                      xaxis_title='Date',
+                      xaxis_title='Date',  
                       yaxis_title='Closing Price')
 
     # Show the plot
@@ -400,14 +398,26 @@ for tick in tickers:
 **BAC 30MA 2008**
 ![BAC 30MA 2008](https://i.imgur.com/akQGYoP.png)  
 **GS 30MA 2008**
-![GS 30MA 2008](https://i.imgur.com/fWX3fI6.png)
+![GS 30MA 2008](https://i.imgur.com/fWX3fI6.png)  
 
-## Discussion
-This is the discussion.
+Except for **WFC**, the other bank stocks displayed a  downtrend throughout most of 2008, which was consistent with the prevailing market conditions during the financial crisis. The stock prices remained generally lower than the 30-day moving average (MA), indicating a downward trend.  
+
+This performance can be attributed to several factors:
+1. Financial Crisis of 2008
+2. Market Sentiment and Investor Confidence
+3. Regulatory and Government Intervention
+**Financial Crisis of 2008**  
+The 2008 financial crisis had a profound effect on the banking sector, leading to widespread declines in stock prices. The crisis eroded investor confidence and raised concerns about the financial stability of banks. As a result, investors sold bank stocks, causing their prices to decline.  
+
+**Market Sentiment and Investor Confidence**  
+During the financial crisis, market sentiment was predominantly negative, driven by fear, uncertainty, and risk aversion. The deteriorating macroeconomic conditions and the increased likelihood of bank failures undermined investor confidence. This sentiment led to a decrease in demand for bank stocks and consequently contributed to the downward pressure on their prices.  
+
+**Regulatory and Government Intervention**  
+ In response to the financial crisis, regulators implemented stricter regulations and governments intervened to stabilize the financial system. While these measures aimed to restore confidence, they often resulted in increased scrutiny of banks and added operational constraints. This regulatory environment and the uncertainty surrounding government interventions created additional downward pressure on bank stock prices.  
+
+**WFC**
+The performance of **WFC** could be influenced by factors such as its unique financial position, risk exposure, management strategies, or market perception. For instance, if **WFC** had relatively lower exposure to troubled assets compared to other banks, it could have provided more stability and confidence to investors, thereby mitigating the decline in its stock price.
 
 
 ## Conclusion
 This is the conclusion.
-
-## To do
-
