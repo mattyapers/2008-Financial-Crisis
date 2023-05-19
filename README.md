@@ -389,11 +389,17 @@ for tick in tickers:
     fig.show()
 
 ```
-![WFC 30MA 2008](https://i.imgur.com/y05r2XU.png)
-![C 30MA 2008](https://i.imgur.com/PyaygoJ.png)
-![JPM 30MA 2008](https://i.imgur.com/89SJOXt.png)
-![MS 30MA 3008](https://i.imgur.com/mz3hVJp.png)
-![BAC 30MA 2008](https://i.imgur.com/akQGYoP.png)
+**WFC 30MA 2008**
+![WFC 30MA 2008](https://i.imgur.com/y05r2XU.png)  
+**C 30MA 2008**
+![C 30MA 2008](https://i.imgur.com/PyaygoJ.png)  
+**JPM 30MA 2008**
+![JPM 30MA 2008](https://i.imgur.com/89SJOXt.png)  
+**MS 30MA 2008**
+![MS 30MA 3008](https://i.imgur.com/mz3hVJp.png)  
+**BAC 30MA 2008**
+![BAC 30MA 2008](https://i.imgur.com/akQGYoP.png)  
+**GS 30MA 2008**
 ![GS 30MA 2008](https://i.imgur.com/fWX3fI6.png)
 
 ## Discussion
