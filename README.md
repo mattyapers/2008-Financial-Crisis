@@ -405,7 +405,7 @@ Except for **WFC**, the other bank stocks displayed a  downtrend throughout most
 This performance can be attributed to several factors:
 1. Financial Crisis of 2008
 2. Market Sentiment and Investor Confidence
-3. Regulatory and Government Intervention
+3. Regulatory and Government Intervention  
 **Financial Crisis of 2008**  
 The 2008 financial crisis had a profound effect on the banking sector, leading to widespread declines in stock prices. The crisis eroded investor confidence and raised concerns about the financial stability of banks. As a result, investors sold bank stocks, causing their prices to decline.  
 
