@@ -7,6 +7,7 @@
 3.1.1 [Single Day Return](#single-day-return)  
 3.1.2 [SD of Returns](#standard-deviation-of-returns)  
 3.1.3 [Distribution of Returns](#distribution)  
+3.2. [Time_Series] (#time-series)
 4. [Discussion](#discussion)
 5. [Conclusion](#conclusion)
 6. [To do](#to_do)
