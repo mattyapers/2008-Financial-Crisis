@@ -389,6 +389,12 @@ for tick in tickers:
     fig.show()
 
 ```
+![WFC 30MA 2008](https://i.imgur.com/y05r2XU.png)
+![C 30MA 2008](https://i.imgur.com/PyaygoJ.png)
+![JPM 30MA 2008](https://i.imgur.com/89SJOXt.png)
+![MS 30MA 3008](https://i.imgur.com/mz3hVJp.png)
+![BAC 30MA 2008](https://i.imgur.com/akQGYoP.png)
+![GS 30MA 2008](https://i.imgur.com/fWX3fI6.png)
 
 ## Discussion
 This is the discussion.
@@ -398,4 +404,4 @@ This is the discussion.
 This is the conclusion.
 
 ## To do
-1. use a heat map to corroborate the correlation matrix (pairplot)
+
